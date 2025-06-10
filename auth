@@ -1,0 +1,10 @@
+# Київстар дані АРІ +380966175080
+API_ID = 21880746
+API_HASH = '0879bb30f32515ca2d06741706ab7125'
+CHAT_ID = '7187169490'  # Ваш личный ID в Telegram
+
+
+
+
+BOT_TOKEN = '6608004828:AAGrWchxWwv5buMqid4O2FiMUI0e64XdTGg'
+CHAT_ID = '528653792'  # Ваш личный ID в Telegram (найдите через @userinfobot)

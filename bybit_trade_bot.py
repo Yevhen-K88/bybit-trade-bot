@@ -1,14 +1,14 @@
 from telethon import TelegramClient, events
 from telegram import Bot
 import asyncio
+import keys
 
 # Данные вашего бота и API
-API_ID = 21880746
-API_HASH = '0879bb30f32515ca2d06741706ab7125'
-CHAT_ID = '7187169490'  # Ваш личный ID в Telegram
-BOT_TOKEN = '6608004828:AAGrWchxWwv5buMqid4O2FiMUI0e64XdTGg'
-# SOURCE_CHANNEL = 7076929598  # Уникальный ID канала (замените на свой)
-SOURCE_CHANNEL = 1493720845
+API_ID = keys.API_ID
+API_HASH = keys.API_HASH
+CHAT_ID = keys.CHAT_ID
+BOT_TOKEN = keys.BOT_TOKEN
+SOURCE_CHANNEL = keys.SOURCE_CHANNEL
 
 # Инициализация клиентов
 client = TelegramClient('session_name', API_ID, API_HASH)

@@ -2,6 +2,7 @@ from pybit.unified_trading import HTTP
 from class_order import  Order
 from datetime import datetime
 import time
+import keys
 
 pnl = 0
 last_pnl = 0
@@ -25,8 +26,8 @@ trade_side = order.side
 # Инициализация сессии с Bybit API
 session = HTTP(
     demo=True,  # Используем тестовую сеть
-    api_key="oujBIGZ6pVwQmzKAJU",  # Вставьте ваш API ключ
-    api_secret="B2yT0jlAKng8kfpNbEY3tDYDIYxtA40aBRwn",  # Вставьте ваш API секретный ключ
+    api_key=keys.API_KEY_2,  # Вставьте ваш API ключ
+    api_secret=keys.API_SECRET_2,  # Вставьте ваш API секретный ключ
 )
 try:
     session.set_leverage(

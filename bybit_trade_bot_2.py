@@ -15,7 +15,7 @@ sec = 0
 # start parameters
 max_orders = 20
 target_profit = 10
-timeframe = 15
+timeframe = 30
 start_symbol = "XRPUSDT"
 start_side = "Buy"
 leverage = "20"
